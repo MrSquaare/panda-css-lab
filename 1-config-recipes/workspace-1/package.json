@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "workspace-1",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "packageManager": "pnpm@10.20.0"
+}
