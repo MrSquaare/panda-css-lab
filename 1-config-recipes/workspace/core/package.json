@@ -1,0 +1,23 @@
+{
+  "name": "@ui-kit/core",
+  "version": "1.0.0",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup && panda cssgen -o dist/style.css"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^1.5.1",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
